@@ -1,4 +1,8 @@
 # ODEV 1
+# === ÖDEV kullanıcıdan girilen 2 veri alıyruz eğer sayılardan oluşuyorsa ikisini
+# toplasın değilse ekrana "yalnızca sayı girilsin"
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------#
 
 # x = input("Değer giriniz : ")
 # y = input("Değer giriniz : ")
@@ -9,6 +13,14 @@
 #     print("İki değerde Integer ")
 
 #ODEV 2
+# ===== ÖDEV =====
+# vize ve final iki not inputtan alınır
+# vizenin ortalaması %40 finalin ortalaması %60tır.
+# iki notun ortalaması alınıp çıkan sonuç
+# 100 90 arası "AA"- 90 80 arası "AB" - 80 70 arası "BB"- 70 60 arası "CB" - 60 50 "CC"
+# ekrana yazdır
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------#
 
 # vize = int(input("Vize notunuzu giriniz : "))
 # final = int(input("Final notunuzu giriniz : "))
@@ -25,6 +37,12 @@
 
 
 #ODEV 3
+# ===== ÖDEV =====
+# Kullanıcıya sinema ya da tiyatro tercihi sorulsun.
+# sinema 20tl tiyatro 10tl öğrenciyse %50 indirim yapılacak
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------#
+
 # secim = str(input("Hangi alana gireceksiniz? Tiyatro veya Sinema: "))
 # calisma = str(input("Çalışıyor musunuz? Evet veya Hayır: "))
 # ogrenci = str(input("Öğrenci misiniz? Evet veya Hayır: "))
