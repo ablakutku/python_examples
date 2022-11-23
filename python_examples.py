@@ -4,14 +4,15 @@
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------#
 
-# x = input("Değer giriniz : ")
-# y = input("Değer giriniz : ")
+sayi1 = input("Birinci sayıyı giriniz: ")
+sayi2 = input("İkinci sayıyı giriniz: ")
 
-# if x == str(x) and y == str(y):
-#     print("İki değerde String yapıda")
-# if x==int(x) and y==int(y):
-#     print("İki değerde Integer ")
-
+if sayi1.isnumeric() and sayi2.isnumeric():
+    sayi1 = int(sayi1)
+    sayi2 = int(sayi2)
+    print(sayi1 + sayi2)
+else:
+    print("Lütfen sayı giriniz")
 #ODEV 2
 # ===== ÖDEV =====
 # vize ve final iki not inputtan alınır
